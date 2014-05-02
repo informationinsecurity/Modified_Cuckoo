@@ -1,0 +1,4 @@
+for i in {33..43}
+do
+  curl http://localhost:8090/tasks/delete/$i 
+done
